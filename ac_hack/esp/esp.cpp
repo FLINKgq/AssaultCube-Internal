@@ -90,7 +90,7 @@ namespace ESP {
                     drawList->AddLine(startPos, targetPos, boxColor, 1.0f);
                 }
 
-                //--- esp elements slot system ---
+                //esp elements slot system
                 //setting up array of pointers to side settings
                 std::vector<int>* sides[4] = {
                     &Globals::Settings::Esp::sideLeft,
